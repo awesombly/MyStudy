@@ -26,6 +26,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_test D3D", "src\test 3D\test 3D.vcxproj", "{225A8550-2587-4826-8CE8-469E8CB9CE74}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EffectTool", "src\EffectTool\EffectTool.vcxproj", "{FFA1B915-1D44-4B0B-A60D-BA1E5138EC0D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D961CB9F-97FD-4041-8523-0F75B1343CB0} = {D961CB9F-97FD-4041-8523-0F75B1343CB0}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerLib", "src\ServerLib\ServerLib.vcxproj", "{A05A1AD1-B977-4615-BAB5-4A4B4A20EA6B}"
 EndProject
@@ -497,7 +500,7 @@ Global
 		{60DDB87E-A880-4313-8E2D-DCFAA32FF5C5} = {4039FEA4-560F-40E9-AE45-08A32AAA7C8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FF386A23-A0AA-42E7-9609-178D3FB9C0A3}
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {FF386A23-A0AA-42E7-9609-178D3FB9C0A3}
 	EndGlobalSection
 EndGlobal
