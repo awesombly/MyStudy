@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core" Collapsed="true">
+    <Position X="4.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAIAAAAAAASAAgAMAACAAACAAQABECABAIAgU=</HashCode>
+      <FileName>CoreDX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input" Collapsed="true">
+    <Position X="6.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgBAAQAAAAAFEAECIAAEAAAIAAAAAAAAAAYEAA=</HashCode>
+      <FileName>Input.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="9.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEABAIAAAAAAAIAAAAAAQAoAYAAAESAAAAUgEACA=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window" Collapsed="true">
+    <Position X="7.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACACCIAAAAgAAAAIAAAQAAAAAAQAAASAgAACw=</HashCode>
+      <FileName>Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IBasis" Collapsed="true">
+    <Position X="4.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBACEBAAAAE=</HashCode>
+      <FileName>IBasis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDxBasis" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACABAgAAU=</HashCode>
+      <FileName>IDxBasis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISingleton&lt;Type&gt;" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAARAAAAAQAAAA=</HashCode>
+      <FileName>ISingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyVertex" Collapsed="true">
+    <Position X="50.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAIBAAYAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyActor" Collapsed="true">
+    <Position X="23.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBMBAAGABAECAQQAAgAAABAJCAABAYGAESgAECByggA=</HashCode>
+      <FileName>MyActor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyEffect" Collapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAIAQAAAAAAAABAAAAAAAAAAACEAAAAAA=</HashCode>
+      <FileName>MyEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyVector2" Collapsed="true">
+    <Position X="52" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAEAAAAQACAAAAACAgAABgAAAAAAA=</HashCode>
+      <FileName>MyRect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyVector3" Collapsed="true">
+    <Position X="46.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAABAgAABgAQAAAAA=</HashCode>
+      <FileName>MyRect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyVector4" Collapsed="true">
+    <Position X="48.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAgAAAAIAgAAhgAQAAAAA=</HashCode>
+      <FileName>MyRect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyRect" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="~MyRect" Hidden="true" />
+      <Method Name="CollisionCheck" Hidden="true" />
+      <Method Name="getAngle" Hidden="true" />
+      <Method Name="getBottom" Hidden="true" />
+      <Method Name="getCenter" Hidden="true" />
+      <Method Name="getCenterX" Hidden="true" />
+      <Method Name="getCenterY" Hidden="true" />
+      <Method Name="getHeight" Hidden="true" />
+      <Method Name="getLeft" Hidden="true" />
+      <Method Name="getPoint" Hidden="true" />
+      <Method Name="getRadian" Hidden="true" />
+      <Method Name="getRight" Hidden="true" />
+      <Method Name="getTop" Hidden="true" />
+      <Method Name="getWH" Hidden="true" />
+      <Method Name="getWidth" Hidden="true" />
+      <Method Name="getX" Hidden="true" />
+      <Method Name="getY" Hidden="true" />
+      <Field Name="m_height" Hidden="true" />
+      <Field Name="m_point" Hidden="true" />
+      <Field Name="m_width" Hidden="true" />
+      <Method Name="Move" Hidden="true" />
+      <Method Name="MyRect" Hidden="true" />
+      <Method Name="operator*" Hidden="true" />
+      <Method Name="operator/" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="RECTset" Hidden="true" />
+      <Method Name="setBottom" Hidden="true" />
+      <Method Name="setCenter" Hidden="true" />
+      <Method Name="setCenterX" Hidden="true" />
+      <Method Name="setCenterY" Hidden="true" />
+      <Method Name="setHeight" Hidden="true" />
+      <Method Name="setLeft" Hidden="true" />
+      <Method Name="setPoint" Hidden="true" />
+      <Method Name="setRect" Hidden="true" />
+      <Method Name="setRight" Hidden="true" />
+      <Method Name="setTop" Hidden="true" />
+      <Method Name="setWH" Hidden="true" />
+      <Method Name="setWidth" Hidden="true" />
+      <Method Name="setX" Hidden="true" />
+      <Method Name="setY" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>SAACBEAAiIAIAgABABAeAIEAyMGCQCSEAAAgAOBBACA=</HashCode>
+      <FileName>MyRect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerBall" Collapsed="true">
+    <Position X="44.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAACAoAAAAAAAAAAEAAEAAAAAA=</HashCode>
+      <FileName>PlayerBall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectManager" Collapsed="true">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAEABCICxAAACIEAAAAAIAAAACAAAAE=</HashCode>
+      <FileName>ObjectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DropItem" Collapsed="true">
+    <Position X="35.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAEAAAAABAgAAAAgAAAAAACAAEBAAAAA=</HashCode>
+      <FileName>DropItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyEnemy" Collapsed="true">
+    <Position X="37.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAAIABEAACAAAACYAAAIKAEAASAABCEGAAAAQ=</HashCode>
+      <FileName>MyEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyObject" Collapsed="true">
+    <Position X="38.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECIAggAAAEAAQUQAACAACAUDAAIAAgAAJAAJEgEUAgg=</HashCode>
+      <FileName>MyObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyPlayer" Collapsed="true">
+    <Position X="38.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAQQAAIAAYQxGAFMgASAqABKgMDCEQABCFEAQASY=</HashCode>
+      <FileName>MyPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerServant" Collapsed="true">
+    <Position X="38.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAAAAAAAQABAAEAACCAKAAAgABAAQABABAAAAAA=</HashCode>
+      <FileName>PlayerServant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreItem" Collapsed="true">
+    <Position X="42" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgQAEEAAAAAA=</HashCode>
+      <FileName>ScoreItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DxManager" Collapsed="true">
+    <Position X="9.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAiYAQAEKiAAAIAAABIAAAABAkAAAACAcAICAAE=</HashCode>
+      <FileName>DxManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="50.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAoAAAAAAAAAAAgAAAAAAAAAoAAAwAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RasterizerState" Collapsed="true">
+    <Position X="52" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEAABAAAAUAACAAgAIAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>RasterizerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamplerState" Collapsed="true">
+    <Position X="46.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAIAAAAAAAAAAAAAAAAAAAAAEAAAgAAEAAAE=</HashCode>
+      <FileName>SamplerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="48.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAEAAAABAAAAQAAAAAAAAAAI=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySound" Collapsed="true">
+    <Position X="50.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAEAAIAAAAAAAEAAAAAAAAAAAgAAAEAgBwAAABIA=</HashCode>
+      <FileName>MySound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager" Collapsed="true">
+    <Position X="3.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASggAQAAAAAAIgASAAAgAAAAAAAAAAAoAIAAAAgAAA=</HashCode>
+      <FileName>SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackGround" Collapsed="true">
+    <Position X="41.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAgAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BackGround.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BloodRate" Collapsed="true">
+    <Position X="23.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAAAAAAAAAAgQAQBAAAAABAAAAAAQAACEEgAAQA=</HashCode>
+      <FileName>BloodRate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChattingBox" Collapsed="true">
+    <Position X="28" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQAAAAAACAQAAAAAAAQBEAAAAAAAARAAAEAAAAQA=</HashCode>
+      <FileName>ChattingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiniMap" Collapsed="true">
+    <Position X="32.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgQAAAQAACAAEAAAAAAABEAAAAAAAAJAAAEAAAAAA=</HashCode>
+      <FileName>MiniMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyButton&lt;FuncClass&gt;" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAQAAACAAAAAAAAAAACAAAACAAAABAAAEAAAAQA=</HashCode>
+      <FileName>MyButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyUI" Collapsed="true">
+    <Position X="16.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAQAAAAAACAEACABAAAABECAAAAABABQgAEAAAAAE=</HashCode>
+      <FileName>MyUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthBar" Collapsed="true">
+    <Position X="14.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQAQAABAAAAIgQAUAAAAAABAAAAAAQAAAEEAAAQA=</HashCode>
+      <FileName>HealthBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WriteManager" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KQIAFAAAAEAAgAAAAoASMCBBARAAEBAAAIICABAAAog=</HashCode>
+      <FileName>WriteManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrollBar" Collapsed="true">
+    <Position X="21.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GABIQAQAAACAAAAoCAAAAACAAEAAQABAAABAEAAAAAA=</HashCode>
+      <FileName>ScrollBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings" Collapsed="true">
+    <Position X="13.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUQCAAAAAAAAAAAAAAAAAAEAAAAAAAgAACEEAAAAA=</HashCode>
+      <FileName>Settings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equipment" Collapsed="true">
+    <Position X="19.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAACAAAAAAQAIKAAAQAAACBCEAAAAAA=</HashCode>
+      <FileName>Equipment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory" Collapsed="true">
+    <Position X="16.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAASAAAACAAAABCAAAACAAIoKAAAQABAEACchAQAAA=</HashCode>
+      <FileName>Inventory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACQAAGEEAAAgAAAEAEAAABDEAQIgEAAAAEE=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuickSlot" Collapsed="true">
+    <Position X="16.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAQAAIAAAAAAIAAAAAiAAAABAAAEAAAAAA=</HashCode>
+      <FileName>QuickSlot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slot" Collapsed="true">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAGAAIAYAAAAABEAgogAAAABAAAcAAAAgA=</HashCode>
+      <FileName>Slot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TabButton" Collapsed="true">
+    <Position X="19" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAQABCAAAAAAAAAAAAAAAAAAAAAEBAAAEAAAAAA=</HashCode>
+      <FileName>TabButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IEnemyState" Collapsed="true">
+    <Position X="7.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAIAAAAgAAAAIAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IEnemyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStateBasic" Collapsed="true">
+    <Position X="11.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAACAgAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IEnemyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStateMove" Collapsed="true">
+    <Position X="14" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAIgAAAAAQAAAAA=</HashCode>
+      <FileName>IEnemyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStatePatrol" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAggAAAAAAAAAA=</HashCode>
+      <FileName>IEnemyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStateAttack" Collapsed="true">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAgAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IEnemyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStateHit" Collapsed="true">
+    <Position X="5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAgAAAACAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IEnemyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStateRunaway" Collapsed="true">
+    <Position X="7.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAgAAABAAAAAAQ=</HashCode>
+      <FileName>IEnemyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStateDead" Collapsed="true">
+    <Position X="9.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>IEnemyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IPlayerState" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAgAAAAIAAAAAAAAgAAAAAAAIAAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateBasic" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAgAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateCrawling" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAggAAAAACAAAAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateSword" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateSkill" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAgAAAAAAAQAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateAttack" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAkAAAAAAAAIAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateDash" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAgAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateHit" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAgAAAAAACAAAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateDead" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgACAEAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DxClientRecv" Collapsed="true">
+    <Position X="46.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAgAIAAAAAAAgAAACCAAAACAAAAAAACAAAAAI=</HashCode>
+      <FileName>DxClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DxClientSend" Collapsed="true">
+    <Position X="48.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>DxClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Worker" Collapsed="true">
+    <Position X="52" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACEAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Worker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EKeyState" Collapsed="true">
+    <Position X="52" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAIAAAAICAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EDirection" Collapsed="true">
+    <Position X="48.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>MyActor.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EObjType" Collapsed="true">
+    <Position X="46.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAgAAAgAAAAAAAAEAAAAABQQAAAAAQAAEAg=</HashCode>
+      <FileName>MyActor.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EItemType" Collapsed="true">
+    <Position X="50.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAgAIAAAAAAAQA=</HashCode>
+      <FileName>MyUI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EConfig" Collapsed="true">
+    <Position X="46.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABAAAAAABAAAAAAAAAAAAAAAAAAAAAIAAACAAAA=</HashCode>
+      <FileName>Settings.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EState" Collapsed="true">
+    <Position X="50.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAIAAAAAAAAIAAAQAAIAAAAAAAAAASACAAAA=</HashCode>
+      <FileName>IEnemyState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EPlayerState" Collapsed="true">
+    <Position X="48.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAAAAAAAAAQAAAIAAAAAAIAAAAAgAAAACACAAAA=</HashCode>
+      <FileName>IPlayerState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

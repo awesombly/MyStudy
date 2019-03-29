@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BloodRate.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreDX.cpp">
+      <Filter>MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="DxClient.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ChattingBox.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DxManager.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="IEnemyState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="IPlayerState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyActor.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRect.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MySound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderDepthView.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizerState.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplerState.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSlot.cpp">
+      <Filter>UI\QERTab</Filter>
+    </ClCompile>
+    <ClCompile Include="Slot.cpp">
+      <Filter>UI\QERTab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabButton.cpp">
+      <Filter>UI\QERTab</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollBar.cpp">
+      <Filter>UI\QERTab</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>UI\QERTab</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>UI\QERTab</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>UI\QERTab</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEffect.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEnemy.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObject.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlayer.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="DropItem.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreItem.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerServant.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBall.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object\Child</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BloodRate.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreDX.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="DxClient.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ChattingBox.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DxManager.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IBasis.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IDxBasis.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IEnemyState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ISingleton.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyActor.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRect.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MySound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderDepthView.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplerState.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStd.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSlot.h">
+      <Filter>UI\QERTab</Filter>
+    </ClInclude>
+    <ClInclude Include="Slot.h">
+      <Filter>UI\QERTab</Filter>
+    </ClInclude>
+    <ClInclude Include="TabButton.h">
+      <Filter>UI\QERTab</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>UI\QERTab</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollBar.h">
+      <Filter>UI\QERTab</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>UI\QERTab</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>UI\QERTab</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlayer.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEffect.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEnemy.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObject.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="DropItem.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreItem.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerServant.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBall.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object\Child</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MainCore">
+      <UniqueIdentifier>{4c32ebf6-ab3f-4da8-8e13-325d04080b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{5c9a819e-0a01-4aeb-bed6-ddfa9278b02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{1d76718a-2ccd-44d0-a414-a0c5549ab936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{22a69b61-2d05-4727-9502-8e50b593f6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{975817a6-7998-46fb-98f3-3f0bb709312b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{a0f63514-8596-4f36-af47-041b23dccd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{aa526c43-8615-444b-b3e2-7d6520faf91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{f49d8bae-cfbc-4a3b-8d97-ae376a23115f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\QERTab">
+      <UniqueIdentifier>{29e662dd-6036-4823-a303-4aa9563b17ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Child">
+      <UniqueIdentifier>{6713c467-1e6a-4bd7-8279-d9365ed3541e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

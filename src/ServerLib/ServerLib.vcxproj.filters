@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Server">
+      <UniqueIdentifier>{e5529153-f8b0-405c-8ad7-c38ef5e9860b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{344f9465-0a51-4f09-89bc-b9268e8b6cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{980b5b52-bc63-4df3-ae79-f42765bf774a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{1b0d5119-cac1-4176-a8e5-683727e6142b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerBasic.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Acceptor.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfo.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPacket.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyProtocol.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManager.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Sender.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Receiver.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketStream.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientServer.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ISSingleton.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ServerBasic.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Acceptor.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfo.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManager.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Sender.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Receiver.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketStream.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="header.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientServer.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+</Project>

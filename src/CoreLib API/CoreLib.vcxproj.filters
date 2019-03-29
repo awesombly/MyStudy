@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainCore">
+      <UniqueIdentifier>{afadf8f0-98d1-49e1-ad14-06b693a0d209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{5aaf710d-424f-4d03-8a68-0a85d9824888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{6f8f9ed0-646a-4f79-a0ac-58b0cf856d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattern">
+      <UniqueIdentifier>{72b38609-2c03-4108-9725-825484ed2ffa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMapManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMapFile.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitMap.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEffect.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEnemy.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlayer.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRect.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MySound.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IPlayerState.cpp">
+      <Filter>Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="IEnemyState.cpp">
+      <Filter>Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="FiniteStateMachine.cpp">
+      <Filter>Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="FiniteState.cpp">
+      <Filter>Pattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basis.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMapManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPull.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMapFile.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitMap.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEffect.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEnemy.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlayer.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRect.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MySound.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FiniteState.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="FiniteStateMachine.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="IEnemyState.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerState.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CoreLib.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

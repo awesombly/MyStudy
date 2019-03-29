@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GlobalEx" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IACAAABAAAAACAEAAACIAAAABABAIiJgwAICAIiACAA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectEx" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAICAAAEAAAAAAAAAAAAAQAAAACQAAEAAAAAAAA=</HashCode>
+      <FileName>ObjectEx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WriterEx" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAABAAAQAAAAAIAABACABBIKAA=</HashCode>
+      <FileName>WriterEx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exporter" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAaAICIABAAAAhACAAAACAAIAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Exporter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExportClassDesc" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAACAAAAEAgIAACAAACAEAkAEAAAAAAAACAA=</HashCode>
+      <FileName>Exporter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="D3D_MATRIX" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SceneData" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAAAAAAAEAAAAAAAQIAAIAAAAAAAAAAAABI=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TexInfo" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MaterialData" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAIAAAAAAQAAAAAAQAAAAAAAAAEAAEAAAA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex_PNC" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex_PNCT" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAIYAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AnimTrack" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RowObjectData" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAwAAQAAAAAAAAAAQACAAAAEAAAAGAAAAAAIA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Triangle" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AnimData" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAIAACAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ObjectData" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAAAgQAAABAgAAAQBQEAAAAAAAQAAgAAAAAAA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="EClassType" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>GlobalEx.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

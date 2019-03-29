@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Acceptor" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Acceptor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Receiver" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Receiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sender" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAgAAAAAAAYAAAAAAAAAAAAAIAAI=</HashCode>
+      <FileName>Sender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerBasic" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAwgAACAAAAAAAAAAgAAAAAAAAAAAAAAEQggIAAI=</HashCode>
+      <FileName>ServerBasic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerManager" Collapsed="true">
+    <Position X="4.25" Y="3.75" Width="2.25" />
+    <Members>
+      <Method Name="~ServerManager" Hidden="true" />
+      <Method Name="DeleteUser" Hidden="true" />
+      <Field Name="m_AcceptUserList" Hidden="true" />
+      <Field Name="m_DisablePacketPool" Hidden="true" />
+      <Field Name="m_DisableUserPool" Hidden="true" />
+      <Field Name="m_hIOCP" Hidden="true" />
+      <Field Name="m_PacketPool" Hidden="true" />
+      <Field Name="m_UserList" Hidden="true" />
+      <Method Name="ServerManager" Hidden="true" />
+      <Method Name="SetPacket" Hidden="true" />
+      <Method Name="TakePacket" Hidden="true" />
+      <Method Name="TakeUserInfo" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAgACAQAAAgEBAEAAAIAIAAAAAAAAIAAAEAAAAA=</HashCode>
+      <FileName>ServerManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyPacket" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAgASAAAEAAAAAAAAABAAACA=</HashCode>
+      <FileName>MyPacket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketStream" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUAAAAAAIABAAAAAgACACSAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>PacketStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserThread" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAABAAAAo=</HashCode>
+      <FileName>UserInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserInfo" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIABAAAAAAAAAECAAAAQAAAAAAABAAAAACABAAEAA=</HashCode>
+      <FileName>UserInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientRecv" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAACI=</HashCode>
+      <FileName>Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSend" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAACI=</HashCode>
+      <FileName>Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAAAIAAAAAAAAAAAAgAAAAACQ=</HashCode>
+      <FileName>Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientServer" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgADAIAAAAAJAAABBAAggAAAAAAAAACAAAAgAA=</HashCode>
+      <FileName>ClientServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISSingleton&lt;Type&gt;" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAgAABAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ISSingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="packet_header" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="PACKET_HEADER" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UPACKET" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="EPacket" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jAAAAAAAAAAAAABAAAAAAAAAAAAAAAAABAAAAAAEAAA=</HashCode>
+      <FileName>MyProtocol.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
