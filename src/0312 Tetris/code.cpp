@@ -1,11 +1,11 @@
 #include "header.h"
 
-typedef struct Tetromino {
+struct Tetromino {
 	int x = 0;
 	int y = 0;
 	int type = 0;
 	int rotate = 0;
-} Tetromino;
+};
 Tetromino position;
 int board[WIDTH][HEIGHT] = { 0, };
 int block[7][4][4][4] = { // O
@@ -152,7 +152,7 @@ bool MoveBlock(int dir) {
 	return true;
 }
 
-bool DownBlock(bool drop = 0) {
+bool DownBlock(bool isDrop = false) {
 	bool isColision = false;
 
 	for (int i = HEIGHT - 1; i >= 0; i--)
@@ -204,7 +204,7 @@ bool DownBlock(bool drop = 0) {
 		position.y++;
 	}
 	
-	if (drop) return DownBlock(true);
+	if (isDrop) return DownBlock(true);
 
 	DrawScreen();
 	return true;

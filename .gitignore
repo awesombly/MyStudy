@@ -265,9 +265,8 @@ __pycache__/
 .svn/
 output/
 debugOut.txt
-/lib/_CoreLib D3D.lib
-/lib/_CoreLib D3D_d.lib
-/include/core/
+/lib/
+/include/
 !DX/Lib/x64/
 !DX/Lib/x86/
 

@@ -2,12 +2,12 @@
 //#include "header.h"
 #include <list>
 
+using namespace std;
+
 class Buffer;
 class Player;
 class Object;
 class Dung;
-using namespace std;
-
 
 class Manager
 {
@@ -15,7 +15,7 @@ private:
 	Manager();
 public:
 	~Manager();
-private:	// public:
+private:
 	static Manager* instance;
 	Buffer* m_pBuffer;
 	Player* m_pPlayer;
@@ -31,4 +31,3 @@ public:
 	void CreateObject();
 	void GameOver();
 };
-

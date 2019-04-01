@@ -37,6 +37,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxExporter", "src\MaxExporter\MaxExporter.vcxproj", "{0D5E3896-AA87-44D5-9CF0-7ED51A7349CB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test API", "src\test API\test API.vcxproj", "{0456A64B-0712-4E26-8A13-5D906ABF68F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7F433A7B-5A2C-4097-B484-B22758BD241C} = {7F433A7B-5A2C-4097-B484-B22758BD241C}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test backup", "src\test 3D backup\test 3D backup.vcxproj", "{AB86AF0B-BA90-4C2A-86CA-5F9CAA1BB148}"
 EndProject
@@ -51,6 +54,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TurmP", "src\vc++Shooting\TurmP.vcxproj", "{56F7C9E2-4369-4040-9BF9-9BC567A481AC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test DX", "src\test DX\test.vcxproj", "{B1D41A01-535D-4460-B8C2-A7CCEFD563F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A39139AF-B834-405C-B633-4EFA5B97CD74} = {A39139AF-B834-405C-B633-4EFA5B97CD74}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket_server", "src\socket_server\socket_server.vcxproj", "{15A22721-2D6E-4AC5-B404-CDCA91C22ADC}"
 EndProject
@@ -500,7 +506,7 @@ Global
 		{60DDB87E-A880-4313-8E2D-DCFAA32FF5C5} = {4039FEA4-560F-40E9-AE45-08A32AAA7C8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VisualSVNWorkingCopyRoot = .
 		SolutionGuid = {FF386A23-A0AA-42E7-9609-178D3FB9C0A3}
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal
