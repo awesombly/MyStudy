@@ -36,7 +36,7 @@ enum class EEnviType : char {
 };
 
 enum class ERenderType : char {
-	Basic = 0, Particle, HeightMap, Instance, //, Line, Cube,
+	Basic = 0, Particle, HeightMap, Instance, UI//, Line, Cube,
 };
 
 

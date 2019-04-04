@@ -234,7 +234,7 @@ bool ObjectManager::Render(ID3D11DeviceContext* pDContext) noexcept
 	}
 
 	// ========================== ¹Ì´Ï¸Ê =============================
-	if (Input::isDebug)
+	if (Cameras[ECamera::MiniMap]->isEnable())
 	{
 		DxManager::Get().ClearDepthStencilView();
 		DxManager::Get().SetViewPort(EViewPort::MiniMap);

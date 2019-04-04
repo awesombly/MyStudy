@@ -5,7 +5,8 @@
 PlaneUI::PlaneUI(const wstring_view& myName, const wstring_view& srcName,
 				 const string_view& vertexShaderName, const string_view& pixelShaderName) noexcept
 {
-	SetInfo(myName, EComponent::UI, srcName, vertexShaderName, pixelShaderName);
+	SetInfo(myName, EComponent::Renderer, srcName, vertexShaderName, pixelShaderName);
+	m_eRenderType = ERenderType::UI;
 	Create();
 }
 

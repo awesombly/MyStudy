@@ -16,13 +16,12 @@ struct ParticleInfo
 	bool m_isBillBoard				= true;
 	bool m_isRepeat					= true;
 	bool m_isScreen					= false;
-	//bool DUMMY						= false;
 	bool m_isScalarScale			= true;
 
 	float m_lifeTime				= 9999.0f;
 	float m_curLife					= 0.0f;
-	float m_spawnInterval			= 0.0f;		// 생성 간격
-	UINT  m_maxParticleCount		= 0;
+	float m_spawnInterval			= 0.02f;		// 생성 간격
+	UINT  m_maxParticleCount		= 9999;
 	UINT  m_minInitCount			= 0;
 	UINT  m_maxInitCount			= 0;
 	// 초기 SRT
@@ -38,14 +37,14 @@ struct ParticleInfo
 	//D3DXVECTOR4 m_minLifePerColor;
 	//D3DXVECTOR4 m_maxLifePerColor;
 
-	float m_minLifeCycle			= 0.0f;
-	float m_maxLifeCycle			= 0.0f;
+	float m_minLifeCycle			= 10.0f;
+	float m_maxLifeCycle			= 10.0f;
 
 	D3DXVECTOR3 m_minDirection		= Vector3::Zero;
 	D3DXVECTOR3 m_maxDirection		= Vector3::Zero;
 	// 이속
-	float m_minMaxMoveSpeed			= 0.0f;
-	float m_maxMaxMoveSpeed			= 0.0f;
+	float m_minMaxMoveSpeed			= 9999.0f;
+	float m_maxMaxMoveSpeed			= 9999.0f;
 	float m_minAccMoveSpeed			= 0.0f;
 	float m_maxAccMoveSpeed			= 0.0f;
 	float m_minCurMoveSpeed			= 0.0f;
