@@ -88,6 +88,7 @@ protected:
 	virtual HRESULT CreateVertexBuffer();
 	virtual HRESULT CreateIndexBuffer(const UINT& indexCount, const bool& needInit = true);
 	virtual void	UpdateConstBuffer(ID3D11DeviceContext* pDContext) noexcept;
+	virtual void	UpdateVertexBuffer(ID3D11DeviceContext* pDContext) noexcept;
 
 	virtual void UpdateTextureUV();
 	virtual void EndSpriteEvent();

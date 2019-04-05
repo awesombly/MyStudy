@@ -404,6 +404,10 @@ void Renderer::UpdateConstBuffer(ID3D11DeviceContext* pDContext) noexcept
 	}
 }
 
+void Renderer::UpdateVertexBuffer(ID3D11DeviceContext* pDContext) noexcept
+{
+	pDContext->UpdateSubresource(m_pVertexBuffer, 0, nullptr, &m_vertexList.at(0), 0, 0);
+}
 
 // 정점에 대한 정보를 GPU에 전달
 HRESULT Renderer::CreateVertexBuffer()
