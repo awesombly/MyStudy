@@ -19,7 +19,7 @@ class ColliderOBB;
 class Collider : public Component, public Physics
 {
 protected:
-	const static float PushPower;
+	static const float PushPower;
 	float m_radius;								// 반지름
 	
 	forward_list<Collider*> m_CollisionList;	// 체크된 충돌체
@@ -38,21 +38,22 @@ private:
 protected:												  
 	virtual bool CollisionCheck(Collider* pCollider)				  noexcept;
 public:
-	bool SphereToSphere(Collider* pA, Collider* pB)				const noexcept;
-	bool SphereToAABB(Collider* pA, ColliderAABB* pB)			const noexcept;
-	bool SphereToOBB(Collider* pA, ColliderOBB* pB)				const noexcept;
-	bool AABBToAABB(ColliderAABB* pA, ColliderAABB* pB)			const noexcept;
-	bool AABBToOBB(ColliderAABB* pA, ColliderOBB* pB)			const noexcept;
-	bool OBBToOBB(ColliderOBB* pA, ColliderOBB* pB)				const noexcept;
+	// 충돌 검사
+	static bool SphereToSphere(Collider* pA, Collider* pB)			  noexcept;
+	static bool SphereToAABB(Collider* pA, ColliderAABB* pB)		  noexcept;
+	static bool SphereToOBB(Collider* pA, ColliderOBB* pB)			  noexcept;
+	static bool AABBToAABB(ColliderAABB* pA, ColliderAABB* pB)		  noexcept;
+	static bool AABBToOBB(ColliderAABB* pA, ColliderOBB* pB)		  noexcept;
+	static bool OBBToOBB(ColliderOBB* pA, ColliderOBB* pB)			  noexcept;
 	///
 	void AddIgnoreList(Collider* pCollider)							  noexcept;
 	void ClearIgnoreList(const bool& isPostEvent = true)			  noexcept;
 	void ClearCollisionList()										  noexcept;
 	// 구판정
-	void  SetRadius(const float& radius)			  noexcept;
-	const float GetRadius()						const noexcept;
-	const float GetWorldRadius()				const noexcept;
-	const D3DXVECTOR3 GetCenter()				const noexcept;
+	void  SetRadius(const float& radius)							  noexcept;
+	const float GetRadius()										const noexcept;
+	const float GetWorldRadius()								const noexcept;
+	const D3DXVECTOR3 GetCenter()								const noexcept;
 
 	//void Update()												noexcept override;
 	virtual bool Init()											noexcept override;
