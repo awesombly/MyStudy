@@ -15,15 +15,12 @@ enum class ERasterS : char {
 	CullFront,
 	Line,
 	DepthBias,
-	size					// À×¿©
+	size
 };
 enum class EBlendS : char {
 	Current = 0,
 	Basic,
 	NoAlpha,
-	//Red,
-	//Green,
-	//Blue,
 	size
 };
 enum class EDepthS : char {

@@ -2,7 +2,6 @@
 #include "ColliderAABB.h"
 #include "ColliderOBB.h"
 #include <fstream>
-//#include "../../include/model/AHeroObj.h"
 #include "LoadingParameter.h"
 
 map<UINT, GameObject*> ObjectManager::KeyObjects;
@@ -12,7 +11,6 @@ Camera*				   ObjectManager::CurCamera;
 list<Light*>		   ObjectManager::Lights;
 queue<tuple<void(*)(void*, void*), void*, void*> >	 ObjectManager::PostFrameEvent;
 
-//static const float g_fMaxSize = 1024.0f;
 
 bool ObjectManager::Init() noexcept
 {
@@ -90,7 +88,6 @@ bool ObjectManager::Render(ID3D11DeviceContext* pDContext) noexcept
 {
 	Camera::SelectCamera->Render(pDContext);
 
-	//Lights.front()->SetFocus(Vector3::Zero);
 	for (auto& iter : Lights)
 	{
 		iter->Render(pDContext);
@@ -103,37 +100,6 @@ bool ObjectManager::Render(ID3D11DeviceContext* pDContext) noexcept
 	DxManager::Get().SetRasterizerState(ERasterS::DepthBias);
 
 #pragma region DepthMap Render
-	/*auto pMainCamera = Cameras[ECamera::Main];
-	for (auto& iter : *ObjectManager::Get().GetObjectList(EObjType::AObject))
-	{
-		((AHeroObj*)iter)->SetMatrix(nullptr, &CurCamera->m_matView, &CurCamera->m_matProj);
-		((AHeroObj*)iter)->SetVSShader(DxManager::Get().m_VShaderList["VS_DepthMapPNCT"]);
-		((AHeroObj*)iter)->SetPSShader(nullptr);
-		iter->Render(DxManager::GetDContext());
-		((AHeroObj*)iter)->ReturnVSShader();
-		((AHeroObj*)iter)->ReturnPSShader();
-		((AHeroObj*)iter)->SetMatrix(nullptr, &pMainCamera->m_matView, &pMainCamera->m_matProj);
-	}
-	for (auto& iter : *ObjectManager::Get().GetObjectList(EObjType::Character))
-	{
-		((AHeroObj*)iter)->SetMatrix(nullptr, &CurCamera->m_matView, &CurCamera->m_matProj);
-		((AHeroObj*)iter)->SetVSShader(DxManager::Get().m_VShaderList["VS_DepthMapPNCT"]);
-		((AHeroObj*)iter)->SetPSShader(nullptr);
-		iter->Render(DxManager::GetDContext());
-		((AHeroObj*)iter)->ReturnVSShader();
-		((AHeroObj*)iter)->ReturnPSShader();
-		((AHeroObj*)iter)->SetMatrix(nullptr, &pMainCamera->m_matView, &pMainCamera->m_matProj);
-	}
-	for (auto& iter : *ObjectManager::Get().GetObjectList(EObjType::Enemy))
-	{
-		((AHeroObj*)iter)->SetMatrix(nullptr, &CurCamera->m_matView, &CurCamera->m_matProj);
-		((AHeroObj*)iter)->SetVSShader(DxManager::Get().m_VShaderList["VS_DepthMapPNCT"]);
-		((AHeroObj*)iter)->SetPSShader(nullptr);
-		iter->Render(DxManager::GetDContext());
-		((AHeroObj*)iter)->ReturnVSShader();
-		((AHeroObj*)iter)->ReturnPSShader();
-		((AHeroObj*)iter)->SetMatrix(nullptr, &pMainCamera->m_matView, &pMainCamera->m_matProj);
-	}*/
 	// ±Ì¿Ã∏  ∑£¥ı
 	for (auto& iter : m_ObjectList[EObjType::Object])
 	{
@@ -181,8 +147,6 @@ bool ObjectManager::Render(ID3D11DeviceContext* pDContext) noexcept
 		switch (type)
 		{
 		 case EObjType::Character:
-		 case EObjType::Enemy:
-		 case EObjType::AObject:
 		 case EObjType::Object:
 		 case EObjType::Map:
 		 {

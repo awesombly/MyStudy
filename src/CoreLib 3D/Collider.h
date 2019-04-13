@@ -54,7 +54,6 @@ public:
 	const float GetWorldRadius()				const noexcept;
 	const D3DXVECTOR3 GetCenter()				const noexcept;
 
-
 	//void Update()												noexcept override;
 	virtual bool Init()											noexcept override;
 	virtual bool Frame(const float& spf, const float& accTime)	noexcept override;

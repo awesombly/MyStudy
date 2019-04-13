@@ -17,7 +17,6 @@ public:
 	bool Init()								 noexcept override;
 	Component* clone()						 noexcept override;
 public:
-	//friend class ObjectManager;
 	ColliderAABB(const float& radius, const D3DXVECTOR3& minPos, const D3DXVECTOR3& maxPos);
 	ColliderAABB(const D3DXVECTOR3& minPos, const D3DXVECTOR3& maxPos);
 	virtual ~ColliderAABB() = default;

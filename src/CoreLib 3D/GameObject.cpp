@@ -2,15 +2,6 @@
 #include "ObjectManager.h"
 #include "Collider.h"
 
-//GameObject::GameObject()
-//{
-//	
-//}
-
-//GameObject::~GameObject() noexcept
-//{
-//	ObjectManager::KeyObjects.erase(m_keyValue);
-//}
 
 GameObject::GameObject(const wstring_view& myName, const EObjType& eType)
 {
