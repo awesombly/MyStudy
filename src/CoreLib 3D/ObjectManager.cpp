@@ -40,9 +40,6 @@ bool ObjectManager::Init() noexcept
 
 	// RenderTarget 초기화
 	DxManager::GetInstance().InitRTView();
-
-	//m_RT.m_DSFormat = DXGI_FORMAT_R32_TYPELESS;
-	//m_RT.Create(DxManager::GetDevice(), g_fMaxSize, g_fMaxSize);
 	return true;
 }
 
@@ -54,8 +51,6 @@ bool ObjectManager::Frame(const float& spf, const float& accTime) noexcept
 	for (auto& iter : Lights)
 	{
 		iter->Frame(spf, accTime);
-		//iter->SetPosition(CurCamera->GetWorldPosition() + Vector3::Up * 250.0f + Vector3::Backward * 500.0f);
-		//iter->SetRotation(CurCamera->GetWorldRotation() + Quaternion::Up * PI * 0.25f);
 	}
 	for (auto& outiter : m_ObjectList)
 	{
@@ -74,13 +69,8 @@ bool ObjectManager::Frame(const float& spf, const float& accTime) noexcept
 		iter->ClearCollisionList();
 	}
 
-	// 후처리 이벤트
-	while (!PostFrameEvent.empty())
-	{
-		auto& [postEvent, param1, param2] = PostFrameEvent.front();
-		postEvent(param1, param2);
-		PostFrameEvent.pop();
-	}
+	// 등록 이벤트 처리
+	ProcessPostEvent()
 	return true;
 }
 
@@ -357,23 +347,7 @@ GameObject* ObjectManager::TakeObject(const wstring_view& objName, const bool& p
 		// 대기 풀이 있다면 꺼내옴
 		pObject = finder->second.top();
 		finder->second.pop();
-		//auto pComp = pObject->GetComponentList(EComponent::Collider);
-		//if (pComp != nullptr)
-		//{
-		//	for (auto& iter : *pComp)
-		//	{
-		//		PushCollider((Collider*)iter);
-		//	}
-		//}
-		//pComp = pObject->GetComponentList(EComponent::Renderer);
-		//if (pComp != nullptr)
-		//{
-		//	for (auto& iter : *pComp)
-		//	{
-		//		iter->Update();
-		//	}
-		//}
-
+	
 		auto pCompList = pObject->GetComponentList();
 		for (auto& [eType, pList] : pCompList)
 		{
@@ -450,12 +424,7 @@ void ObjectManager::PopObject(GameObject* pObject) noexcept
 {
 	auto& findList = m_ObjectList[pObject->m_objType];
 	findList.remove(pObject);
-	//auto&& iter = find(findList.begin(), findList.end(), pObject);
-	//if (iter == findList.end())
-	//{
-	//	//ErrorMessage(__FUNCTIONW__ + L" -> "s + pObject->m_myName + L", Not Found!" );
-	//	return;
-	//}
+
 	// 충돌체 제거
 	auto pColliders = pObject->GetComponentList(EComponent::Collider);
 	if (pColliders != nullptr)
@@ -465,11 +434,6 @@ void ObjectManager::PopObject(GameObject* pObject) noexcept
 			PopCollider((Collider*)pCol, false);
 		}
 	}
-	//if (pObject->GetParent() != nullptr)
-	//{
-	//	pObject->CutParent(false);
-	//}
-	//findList.remove(*iter);
 }
 
 void ObjectManager::DisableObject(GameObject* pObject) noexcept

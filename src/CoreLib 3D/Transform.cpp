@@ -2,18 +2,6 @@
 #include "GameObject.h"
 
 
-void Transform::LookAtVector(D3DXVECTOR3 target) noexcept
-{
-	//target -= m_position;
-	m_rotation = { sinf(acosf(target.x)), cosf(acosf(target.x)), 0.0f, 1.0f };
-}
-
-void Transform::LookAtVectorY(float targetY) noexcept
-{
-	// targetY -= m_position.y;
-	m_rotation.y = acos(targetY);
-}
-
 void Transform::SetFocus(const D3DXVECTOR3& target) noexcept
 {
 	D3DXVECTOR3 forward, dirTarget;
@@ -60,23 +48,6 @@ void Transform::SetFocusDir(const D3DXVECTOR3& direction) noexcept
 		m_rotation.y += fRadian;
 	else
 		m_rotation.y -= fRadian;
-}
-
-void Transform::SetFocusZ(const D3DXVECTOR3& target) noexcept
-{
-	D3DXVECTOR3 forward, dirTarget;
-	forward = GetForward();
-	forward.x = 0.0f;
-	dirTarget = -target;
-	dirTarget.x = 0.0f;
-	D3DXVec3Normalize(&forward, &forward);
-	D3DXVec3Normalize(&dirTarget, &dirTarget);
-	float fRadian = acosf(D3DXVec3Dot(&dirTarget, &forward));
-
-	if (VectorDot(Normalize(GetRight()), forward) > 0.0f)
-		m_rotation.x += fRadian;
-	else
-		m_rotation.x -= fRadian;
 }
 
 Transform::Transform(const D3DXVECTOR3& position, const D3DXQUATERNION& rotation, const D3DXVECTOR3& scale) noexcept

@@ -14,12 +14,8 @@ protected:
 	D3DXVECTOR3		m_Side = { 1.0f, 0.0f, 0.0f };	// 사이드 벡터
 	D3DXVECTOR3		m_Up   = { 0.0f, 1.0f, 0.0f };	// 직교 벡터
 public:
-	void LookAtVector(D3DXVECTOR3 target)							 noexcept;
-	void LookAtVectorY(float targetY)								 noexcept;
-	///
 	void SetFocus(const D3DXVECTOR3& target)						 noexcept;
 	void SetFocusDir(const D3DXVECTOR3& direction)					 noexcept;
-	void SetFocusZ(const D3DXVECTOR3& target)						 noexcept;
 	// 연산
 	void Transformation(const Transform& transform)					 noexcept;
 	void Translate(const D3DXVECTOR3& position)						 noexcept;
@@ -58,18 +54,14 @@ public:
 	const D3DXVECTOR3&		GetScale()						   const noexcept;
 	const float				GetScaleAverage()				   const noexcept;
 	
-	const D3DXVECTOR3&	GetForward()						   const noexcept;
-	const D3DXVECTOR3	GetBackward()						   const noexcept;
-	const D3DXVECTOR3&	GetRight()							   const noexcept;
-	const D3DXVECTOR3	GetLeft()							   const noexcept;
-	const D3DXVECTOR3&	GetUp()								   const noexcept;
-	const D3DXVECTOR3	GetDown()							   const noexcept;
+	const D3DXVECTOR3&		GetForward()					   const noexcept;
+	const D3DXVECTOR3		GetBackward()					   const noexcept;
+	const D3DXVECTOR3&		GetRight()						   const noexcept;
+	const D3DXVECTOR3		GetLeft()						   const noexcept;
+	const D3DXVECTOR3&		GetUp()							   const noexcept;
+	const D3DXVECTOR3		GetDown()						   const noexcept;
 public:
 	Transform() = default;
 	Transform(const D3DXVECTOR3& position, const D3DXQUATERNION& rotation, const D3DXVECTOR3& scale) noexcept;
-	//Transform(Transform&)  = default;
-	//Transform(Transform&&) = default;
-	//Transform& operator = (const Transform&) = default;
-	//Transform& operator = (Transform&&) = default;
 	virtual ~Transform() = default;
 };
